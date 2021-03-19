@@ -57,7 +57,7 @@ class SGD:
         
         ## init predictor
         self.model = self.model.to(self.device)
-        
+
         ## load
         if hasattr(self.params, "load_model") and self.params.load_model:
             if self.model.load(

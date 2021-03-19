@@ -22,7 +22,8 @@ def train_model(run_eval=True):
     params = types.SimpleNamespace()
     params.exp_name = exp_name
     params.snapshot_root = "snapshots"
-    params.load_net = True
+    params.load_model = True
+    params.save_model = True
     params.use_gpu = True
     # learning params
     params.optimizer = "Adam"

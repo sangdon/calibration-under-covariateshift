@@ -16,7 +16,7 @@ import torch.tensor as T
 # from torch.utils.data import DataLoader, TensorDataset
 
 ##--------------------------------------------------
-sys.path.append("../../../../../")
+sys.path.append("../../../../")
 from calibration.utils import *
 from data.digits import loadMNIST
 loadSrc = lambda batch_size: loadMNIST('datasets/MNIST', batch_size)
